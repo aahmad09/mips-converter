@@ -1,0 +1,9 @@
+This program converts a MIPS instruction to its binary equivalent. Enter "exit" to exit the program.
+Supported instructions are 
+    - R type: add, addu, sub, subu, sll, srl, mult, multu, div, divu, mfhi, mflo, jr
+    - I Type*: lw, beq, bne, sw
+    - J Type: j, jal
+Specify if you want to use register numbers (ex $2) or register names ex ($v0)
+Commas are optional in instructions
+Note: for lw and sw, instructions must be entered in this format, i.e. with paranthesis and immediate value
+    lw $14 8($13) or lw $t6 8($t3)
